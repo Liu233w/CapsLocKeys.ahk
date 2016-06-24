@@ -5,7 +5,6 @@ CapsLocKeys.ahk
 An autohotkey's script which makes your capslock more powerful by adding many hot keys on it.
 
 ## Features
-* right Alt : Ctrl
 * Capslock : ESC
 * shift+Capslock : Capslock
 * Capslock+h/j/k/l : Left/Down/Up/Right arrow

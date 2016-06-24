@@ -6,7 +6,6 @@ IconMark := A_ScriptDir . "\mark.ico"
 Menu, Tray, Icon, %IconNum%, , 1
 ; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-RAlt::Ctrl  ;右Alt作为Ctrl
 ; CapsLock::ESC    ;大写锁定作为ESC
 +CapsLock::CapsLock  ;shift+capslock作为大写锁定
 
