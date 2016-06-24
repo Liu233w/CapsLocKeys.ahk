@@ -78,24 +78,24 @@ return
 #If
 
 #if NumsLineLock
-0::SendInput {)}
-1::SendInput {!}
-2::SendInput {@}
-3::SendInput {+}
-4::SendInput {$}
-5::SendInput {`%}
-6::SendInput {^}
-7::SendInput {&}
-8::SendInput {*}
-9::SendInput {(}
-+0::SendInput {0}
-+1::SendInput {1}
-+2::SendInput {2}
-+3::SendInput {3}
-+4::SendInput {4}
-+5::SendInput {5}
-+6::SendInput {6}
-+7::SendInput {7}
-+8::SendInput {8}
-+9::SendInput {9}
+0::+0
+1::+1
+2::+2
+3::+3
+4::+4
+5::+5
+6::+6
+7::+7
+8::+8
+9::+9
++0::0
++1::1
++2::2
++3::3
++4::4
++5::5
++6::6
++7::7
++8::8
++9::9
 #If
