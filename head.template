@@ -1,0 +1,25 @@
+;    -*- mode: ahk -*-
+; 全局变量;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+NumsLineLock := ""              ;数字锁
+IconNum := A_ScriptDir . "\number.ico" ;状态图标的路径
+IconMark := A_ScriptDir . "\mark.ico"
+;工具栏图标，用于指示NumsLineLock的状态
+Menu, Tray, Icon, %IconNum%, , 1
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RAlt::Ctrl  ;右Alt作为Ctrl
+; CapsLock::ESC    ;大写锁定作为ESC
++CapsLock::CapsLock  ;shift+capslock作为大写锁定
+
+; capslock的详细设定：单独按下时是ESC
+CapsLock::
+CapsLock2:=CapsLock:=1
+KeyWait, CapsLock
+if CapsLock2
+  SendInput, {Esc}
+CapsLock2:=CapsLock:=""
+Return
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Capslock的组合键;;;;;;;;;;;;;;;;;;;;;;;;;;
+#If CapsLock
+
