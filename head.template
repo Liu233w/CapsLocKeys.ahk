@@ -1,4 +1,12 @@
 ;    -*- mode: ahk -*-
+
+;; Copyright (c) 2016 Liu233w
+;;
+;; Author: Liu233w <wwwlsmcom@outlook.com>
+;; URL: https://github.com/Liu233w/CapsLocKeys.ahk
+;;
+;;; License: GPLv3
+
 ; 全局变量;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 NumsLineLock := ""              ;数字锁
 IconNum := A_ScriptDir . "\number.ico" ;状态图标的路径
