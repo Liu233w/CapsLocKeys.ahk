@@ -38,6 +38,11 @@ multi_key = [
     ('h', '{Left}'), ('j', '{Down}'), ('k', '{Up}'), ('l', '{Right}')
 ]
 
+# 分别使用Capslock+1...9 0 - =表示F1-F12
+for a in range(1, 10):
+    multi_key.append((str(a), '{F%d}' % (a)))
+multi_key += [('0', '{F10}'), ('-', '{F11}'), ('=', '{F12}')]
+
 #表示所有的组合键
 chord_key = ['', '!', '^', '+', '+!', '+^', '!^', '!^+']
 

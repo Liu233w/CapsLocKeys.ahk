@@ -13,6 +13,7 @@ An autohotkey's script which makes your capslock more powerful by adding many ho
 * Capslock+d : DEL
 * Capslock+a : HOME
 * Capslock+e : END
+* Capslock+1...9 0 - = : F1-F12
 * Capslock+o : open a new line but don't break this line into two line on the cursor
 
 ## Killing feature
