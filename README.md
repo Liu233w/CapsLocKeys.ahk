@@ -11,6 +11,7 @@ An autohotkey's script which makes your capslock more powerful by mapping other 
 * Capslock : ESC
 * shift+Capslock : Capslock
 * Capslock+o : open a new line but don't break this line into two line on the cursor
+
 ### Multiple keys, which can be combined with other chords
     Keys listed below can be combined with other chords such as Ctrl Alt or Shift
     For example:
