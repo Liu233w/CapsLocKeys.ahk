@@ -6,10 +6,10 @@ CapsLocKeys.ahk
 
 ## 特性
 ### 无法和其他修饰键组合的单独按键
-* 右 Alt : Ctrl
 * Capslock : ESC
 * shift+Capslock : Capslock
 * Capslock+o : 在当前行下方开启一个新行，但是不会从光标处截断当前行
+
 ### 可以和其他修饰键组合的复合按键
     下面列出的按键可以和Ctrl Alt Shift等按键相组合
     例：
